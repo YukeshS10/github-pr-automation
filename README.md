@@ -43,20 +43,6 @@ PR_ENVS=qas,stg,main raises to quality, preproduction and main
 4. Copy the token to your `.env` file
 
 ---
-###Deploy to Specific Environments
-
-1. In the .env file, define the environment to which PR has to be raised:
-
-``
-PR_ENVS=qas,stg 
-raises to quality and preproduction
-``
-2. Add reviewers:
-
-``
-PR_REVIEWERS=user1,user2,user3
-add reviewers by default in the PRs
-``
 
 ## Usage
 
