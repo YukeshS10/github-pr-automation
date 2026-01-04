@@ -17,7 +17,9 @@ Automate pull request creation across multiple environments (Quality → PreProd
 
 - Python 3.11+
 # Install dependencies
+``
 pip install requests python-dotenv
+``
 - GitHub Personal Access Token with `repo` permissions
 
 ### 2. Configuration
@@ -30,8 +32,8 @@ GITHUB_TOKEN=ghp_your_token_here
 GITHUB_REPO="KaarProducts/k4k-main"
 
 # Optional
-PR_REVIEWERS=user1,user2,user3
-PR_ENVS=qas,stg,main
+PR_REVIEWERS=user1,user2,user3 //adds default reviewers in the PRs
+PR_ENVS=qas,stg,main raises to quality, preproduction and main
 ```
 
 **Getting a GitHub Token:**
